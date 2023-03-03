@@ -2,6 +2,7 @@ package com.example.hellotoast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -23,6 +24,7 @@ int counter=0;        TextView display;
         toast.show();//showing the setted value
     }
 
+    @SuppressLint("SuspiciousIndentation")
     public void Increment(View view) {
         counter++;
         if(display!=null)
