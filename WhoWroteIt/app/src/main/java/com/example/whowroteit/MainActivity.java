@@ -12,7 +12,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    private EditText mBookInput;
+    private EditText mBookInputboo;
     private TextView mTitleText;
     private TextView mAuthorText;
 
