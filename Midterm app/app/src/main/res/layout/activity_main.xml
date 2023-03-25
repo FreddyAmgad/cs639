@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    >
+
+    <TextView
+        android:id="@+id/StartAppHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView2"
+        android:layout_marginTop="0dp"
+        android:text="WELCOME TO OUR CONVERSION APP"
+        android:textAlignment="center"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+android:layout_below="@id/StartAppHeading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+       />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        app:layout_constraintBottom_toTopOf="@+id/StartAppHeading"
+android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/whatsapp_image_2023_03_25_at_10_38_03_am" />
+
+</RelativeLayout>
